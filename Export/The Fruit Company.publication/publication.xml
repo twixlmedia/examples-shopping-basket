@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publication name="The Fruit Company" orientations="landscape" scrubber="yes" jpegQuality="High" scrollEnabled="yes" showStatusBar="no" horizontalOnly="no" version="4.1.3-beta1" build="17671" allowSharing="yes" dataModel="3" layout="1024x768" edition="Subscription" indesign="1101-mac" scrubberStyle="2">
+    <article showInScrubber="yes">
+        <name>Art1</name>
+        <landscape>
+            <title>Art1</title>
+            <tagline/>
+            <articleURL/>
+            <pages count="1">
+                <page id="225" number="1" width="1024" height="768">
+                    <full>1024x768/Art1/landscape_full1.jpg</full>
+                    <thumb>1024x768/Art1/landscape_thumb1.jpg</thumb>
+                    <weboverlays>
+                        <weboverlay url="webresource://shopping_cart.html" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="yes" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="cart" x="789.5" y="67" width="190.5" height="60"/>
+                        <weboverlay url="webresource://shopping_cart.html?do=add&amp;id=pear" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="no" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="pear" x="545.375" y="180" width="209" height="253.5445"/>
+                        <weboverlay url="webresource://shopping_cart.html?do=add&amp;id=apple" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="no" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="apple" x="269.375" y="180" width="209" height="253.5445"/>
+                        <weboverlay url="webresource://shopping_cart.html?do=add&amp;id=strawberry" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="no" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="strawberry" x="269.375" y="472.105" width="209" height="253.5445"/>
+                        <weboverlay url="webresource://shopping_cart.html?do=add&amp;id=pineapple" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="no" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="pineapple" x="545.375" y="472.105" width="209" height="253.5445"/>
+                    </weboverlays>
+                </page>
+            </pages>
+        </landscape>
+    </article>
+    <article showInScrubber="yes">
+        <name>Art2</name>
+        <landscape>
+            <title>Art1</title>
+            <tagline/>
+            <articleURL/>
+            <pages count="1">
+                <page id="225" number="1" width="1024" height="768">
+                    <full>1024x768/Art2/landscape_full1.jpg</full>
+                    <thumb>1024x768/Art2/landscape_thumb1.jpg</thumb>
+                    <webviewers>
+                        <webviewer url="webresource://shopping_cart.html?do=addButton&amp;id=apple" userInteractionAllowed="yes" transparent="yes" scaleToFit="no" showScrollbars="no" openLinksInline="yes" showLoadingIndicator="no" x="44" y="540.09" width="187.5" height="40"/>
+                        <webviewer url="webresource://shopping_cart.html?do=addButton&amp;id=strawberry" userInteractionAllowed="yes" transparent="yes" scaleToFit="no" showScrollbars="no" openLinksInline="yes" showLoadingIndicator="no" x="293.375" y="540.09" width="187.5" height="40"/>
+                        <webviewer url="webresource://shopping_cart.html?do=addButton&amp;id=pear" userInteractionAllowed="yes" transparent="yes" scaleToFit="no" showScrollbars="no" openLinksInline="yes" showLoadingIndicator="no" x="791.75" y="540.09" width="188.25" height="40"/>
+                        <webviewer url="webresource://shopping_cart.html?do=addButton&amp;id=pineapple" userInteractionAllowed="yes" transparent="yes" scaleToFit="no" showScrollbars="no" openLinksInline="yes" showLoadingIndicator="no" x="542.75" y="540" width="187.5" height="40"/>
+                    </webviewers>
+                    <weboverlays>
+                        <weboverlay url="webresource://shopping_cart.html" xpopup="112" ypopup="84" wpopup="800" hpopup="600" userInteractionAllowed="yes" scaleToFit="no" showScrollbars="yes" showLoadingIndicator="yes" backgroundColor="000000" backgroundOpacity="0.75" analyticsName="cart" x="789.5" y="67" width="190.5" height="60"/>
+                    </weboverlays>
+                </page>
+            </pages>
+        </landscape>
+    </article>
+    <article showInScrubber="yes">
+        <name>ArtCart</name>
+        <landscape>
+            <title>Shopping Cart</title>
+            <tagline/>
+            <articleURL/>
+            <pages count="1">
+                <page id="225" number="1" width="1024" height="768">
+                    <full>1024x768/ArtCart/landscape_full1.jpg</full>
+                    <thumb>1024x768/ArtCart/landscape_thumb1.jpg</thumb>
+                    <webviewers>
+                        <webviewer url="webresource://shopping_cart.html" userInteractionAllowed="yes" transparent="no" scaleToFit="no" showScrollbars="yes" openLinksInline="yes" showLoadingIndicator="yes" x="1.13686837721616e-13" y="144" width="1024" height="624"/>
+                    </webviewers>
+                </page>
+            </pages>
+        </landscape>
+    </article>
+</publication>

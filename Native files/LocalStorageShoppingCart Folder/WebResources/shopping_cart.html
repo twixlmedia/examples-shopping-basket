@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>The Fruit Company</title>
+
+    <script src="js/twixl_core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/twixl_cart.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/json.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <meta charset="UTF-8">
+
+    <style type="text/css" media="screen">
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        th, td, p, div { font-size: 17pt; }
+        a { color: navy; text-decoration: none; }
+        #twixl-cart .twixl-actions-online, #twixl-cart .twixl-actions-offline { text-align: center; min-height: 44px; margin: 40px; }
+        p { margin: 0; padding: 20px 0; }
+        #twixl-cart table { width:100%; border-collapse: collapse; border: 0; border-spacing: 0; }
+        #twixl-cart td, #twixl-cart th { border-bottom: 1px solid #CCC; padding: 8px 0; text-align: right; width: 15%; vertical-align: middle; height: 44px; }
+        #twixl-cart tfoot { font-weight: bold; }
+        #twixl-cart td.product, #twixl-cart th.product { text-align: left; }
+        #twixl-empty-cart, #twixl-confirm-order, #twixl-place-order-progress, #twixl-order-finish { width: 100%; height: 100%; text-align: center; padding-top: 200px; }
+        input {
+            font-size: 17pt;
+            width: 100%;
+            border: 1px solid gray;
+            padding: 6px;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+        }
+        #twixl-order-email.error {
+            border: 1px solid red;
+            background-color: #FFDDDD;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="twixl-cart" class="twixl-cart" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th class="product">Product</th>
+                    <th class="count">#</th>
+                    <th class="price">Price</th>
+                    <th class="total">Total</th>
+                    <th class="actions"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+        <div class="twixl-actions-online">
+            <a href="" class="twixl-confirm-order">Place your order</a>
+        </div>
+        <div class="twixl-actions-offline">
+            You are offline.
+            <br/>
+            <br/>
+            An internet connection is required to place your order.
+        </div>
+    </div>
+
+    <div id="twixl-empty-cart" class="twixl-cart" style="display: none;">
+        Your shopping cart is empty.
+    </div>
+
+    <div id="twixl-confirm-order" class="twixl-cart" style="display: none;">
+        Please enter your e-mail address:
+        <br/><br/>
+        <form id="twixl-form-confirm-order"><input type="email" id="twixl-order-email"></form>
+        <br/><br/>
+        <a href="" class="twixl-show-cart">cancel</a> or <a href="" class="twixl-place-order">place your order</a>
+    </div>
+
+    <div id="twixl-place-order-progress" class="twixl-cart" style="display: none;">
+        Processing your order.
+        <br/><br/>
+        Please wait...
+    </div>
+
+    <div id="twixl-order-finish" class="twixl-cart" style="display: none;">
+        Fruitful thanks for your order.
+        <br/>
+        <br/>
+        Your order ID is <strong><span id="twixl-cart-order-id"></span></strong>
+        <br/>
+        <br/>
+        <a href="" class="twixl-show-cart">Back to the shopping cart</a>
+    </div>
+
+    <div id="twixl-cart-product-button" class="twixl-cart" style="display: none;">
+        <a href=""></a>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        Zepto(function($){
+            TwixlCart.init(
+                'com.fruitcompany.shopping-cart',
+                {
+                    'apple': {
+                        'product': 'Apple',
+                        'price': 0.5,
+                    },
+                    'pear': {
+                        'product': 'Pear',
+                        'price': 0.5,
+                    },
+                    'pineapple': {
+                        'product': 'Pineapple',
+                        'price': 1.5,
+                    },
+                    'strawberry': {
+                        'product': 'Strawberry',
+                        'price': 3.0,
+                    },
+                }
+            );
+        });
+    </script>
+
+</body>
+
+</html>

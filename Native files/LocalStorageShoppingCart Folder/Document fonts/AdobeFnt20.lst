@@ -1,0 +1,58 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-BlackCond
+FamilyName:Myriad Pro
+StyleName:Black Condensed
+MenuName:Myriad Pro Black Cond
+StyleBits:2
+WeightClass:900
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Black Condensed
+WritingScript:Roman
+OutlineFileName:/Users/kmikazu/Tower/examples-shopping-basket/Native files/LocalStorageShoppingCart Folder/Document fonts/MyriadPro-BlackCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:80344
+FileModTime:87715765
+NameArray:0,Mac,18,Myriad Pro Black Cond
+NameArray:0,Mac,4,Myriad Pro Black Condensed
+NameArray:0,Win,1,Myriad Pro Black Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-BoldCond
+FamilyName:Myriad Pro
+StyleName:Bold Condensed
+MenuName:Myriad Pro Cond
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Bold Condensed
+WritingScript:Roman
+OutlineFileName:/Users/kmikazu/Tower/examples-shopping-basket/Native files/LocalStorageShoppingCart Folder/Document fonts/MyriadPro-BoldCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:94788
+FileModTime:393257822
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Bold Cond
+NameArray:0,Mac,4,Myriad Pro Bold Condensed
+NameArray:0,Win,1,Myriad Pro Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
